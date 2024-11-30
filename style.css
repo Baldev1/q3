@@ -1,0 +1,39 @@
+/* External CSS for Online Library Membership Form */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    margin: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+label {
+    font-size: 14pt;
+    font-style: italic;
+    color: darkblue;
+}
+
+input, select, textarea {
+    font-size: 14pt;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    font-size: 14pt;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
