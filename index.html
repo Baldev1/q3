@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library Membership Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Online Library Membership Form</h1>
+    <form id="membershipForm">
+        <label for="name">Name of the Member:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="aadhar">Aadhar Number:</label><br>
+        <input type="text" id="aadhar" name="aadhar"><br><br>
+
+        <label for="membershipType">Type of Membership:</label><br>
+        <select id="membershipType" name="membershipType">
+            <option value="">--Select--</option>
+            <option value="Student">Student</option>
+            <option value="Faculty">Faculty</option>
+            <option value="Staff">Staff</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="membershipYear">Year of Membership:</label><br>
+        <input type="text" id="membershipYear" name="membershipYear"><br><br>
+
+        <label>Were you a member earlier?</label><br>
+        <input type="radio" id="memberYes" name="memberEarlier" value="Yes">
+        <label for="memberYes">Yes</label>
+        <input type="radio" id="memberNo" name="memberEarlier" value="No">
+        <label for="memberNo">No</label><br><br>
+
+        <label for="services">Description of Services Expected from the Library:</label><br>
+        <textarea id="services" name="services" rows="4" cols="50"></textarea><br><br>
+
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
